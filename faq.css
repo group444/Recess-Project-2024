@@ -1,0 +1,96 @@
+body {
+	font-family: 'Arial', sans-serif;
+	margin: 0;
+	padding: 0;
+	background: url('img/Bus-made-by-Kiira-Motors.jpg') no-repeat center center fixed;
+	background-size: cover;
+	color: #333;
+}
+
+header {
+	background-color: hsla(118, 39%, 49%, 0.253); /* Semi-transparent background */
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+
+/*nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav li {
+	margin-right: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}*/
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 40px 20px;
+}
+
+.faq-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	gap: 20px;
+	width: 100%;
+	max-width: 1200px;
+}
+
+.faq {
+	flex: 1 1 calc(33.333% - 40px);
+	box-sizing: border-box;
+	margin: 20px;
+	padding: 30px;
+	background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+
+.faq h1 {
+	margin-top: 0;
+	font-size: 2em;
+	color: #46b38e;
+	text-align: center;
+}
+
+.faq dl {
+	margin: 20px 0;
+}
+
+.faq dt {
+	font-weight: bold;
+	margin-top: 20px;
+	color: #333;
+}
+
+.faq dd {
+	margin: 10px 0 20px 0;
+	padding-left: 20px;
+	color: #666;
+}
+
+footer {
+	background-color: rgba(51, 51, 51, 0.9); /* Semi-transparent background */
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+
+footer p {
+	margin: 0;
+}

@@ -1,0 +1,230 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.section-gap {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.section-title p {
+    font-size: 18px;
+    color: #555;
+}
+
+.single-service {
+    flex: 1;
+    max-width: 32%;
+    margin-bottom: 30px;
+    text-align: center;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.service-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.single-service span {
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.single-service h4 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.single-service p {
+    font-size: 16px;
+    color: #555;
+}
+
+@media (max-width: 992px) {
+    .single-service {
+        max-width: 48%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px) {
+    .single-service {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('img/bus.1.jpg') no-repeat center center fixed; /* Add your image path here */
+    background-size: cover;
+}
+
+header {
+    padding: 20px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.nav-menu li {
+    margin: 0 15px;
+}
+
+.nav-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background 0.3s;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+}
+
+.nav-menu a:hover {
+    background-color: rgba(255, 193, 7, 0.8); /* Semi-transparent yellow background on hover */
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-menu li {
+        margin: 10px 0;
+    }
+}
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-lg-6 {
+    flex: 1;
+    max-width: 48%;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.services-intro {
+    padding: 60px 0;
+    background-color: #f9f9f9;
+}
+
+.services-intro img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.services-intro h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.services-intro p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.services-intro .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffc107;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.services-intro .btn:hover {
+    background-color: #e0a800;
+}
+
+@media (max-width: 768px) {
+    .col-lg-6 {
+        max-width: 100%;
+        padding: 10px;
+    }
+}
+/* Back Button */
+.back-button {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+}
+
+.back-button:hover {
+    background-color: #555;
+}

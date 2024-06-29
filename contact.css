@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2e2e2e; /* Dark grey background color */
+    color: #ffffff; /* White text color for better readability */
+}
+
+/* Contact Page Background */
+.contact-background {
+    background-image: url('img/bus.1.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+}
+
+/* Contact Container */
+.contact-container {
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+}
+
+.contact-container h1 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.contact-container p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+/* Contact Form */
+#contactForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#contactForm label {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+#contactForm input,
+#contactForm textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 100%;
+}
+
+#contactForm button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Green background for the submit button */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+/* Back Button */
+.back-button {
+    display: inline-block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    width: fit-content;
+}
+
+.back-button:hover {
+    background-color: #555;
+}
