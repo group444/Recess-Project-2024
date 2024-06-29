@@ -1,0 +1,156 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - PTMS</title>
+    <link rel="icon" href="img/PTMSlogo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        body {
+            background-color: rgb(243, 240, 247);
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: #00f7ff;
+            color: white;
+        }
+        .logo img {
+            height: 50px;
+        }
+        .logo h1 {
+            display: inline;
+            margin-left: 10px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #00b3aa;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .blog {
+            margin-top: 20px;
+        }
+        .blog h2 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .blog-post {
+            background-color: #ffffff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .blog-post h3 {
+            margin-bottom: 10px;
+        }
+        .post-meta {
+            font-size: 0.9em;
+            color: #666;
+            margin-bottom: 15px;
+        }
+        .read-more {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .read-more:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #00f7ff;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/PTMSlogo.png" alt="PTMS Logo">
+            <h1>PTMS</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="blog container">
+        <h2>Blog</h2>
+        <article class="blog-post">
+            <h3>Introduction</h3>
+            <p>Public transport is the backbone of urban mobility, however, it can be a challenge to manage efficiently. In this blog post, we'll explore five ways to improve public transport efficiency, from optimizing routes to leveraging real-time data analytics.
+            </p>
+            </article>
+        <article class="blog-post">
+            <h3>route optimization</h3>
+            <p>One of the simplest ways to improve public transport efficiency is to optimize routes. By analyzing passenger data and traffic patterns, transport managers can identify areas where routes can be streamlined or modified to reduce congestion and improve journey times.</p>
+             </article>
+        <article class="blog-post">
+            <h3>real-time analytics</h3>
+            <p>Real-time data analytics can help transport managers respond quickly to disruptions and make data-driven decisions. By leveraging real-time data, managers can identify areas where services can be improved and make adjustments on the fly.</p>
+        </article>
+        <article class="blog-post">
+            <h3>Vehicle Maintenance</h3>
+            <p class="post-meta">Posted on May 17, 2024 by Dr. Muhereza Joshua</p>
+            <p>Regular vehicle maintenance is crucial to ensuring that public transport runs smoothly. By implementing a regular maintenance schedule and using data analytics to identify potential issues before they occur, transport managers can reduce downtime and improve overall efficiency.</p>
+        </article>
+        <article class="blog-post">
+            <h3> Enhance Passenger Experience</h3>
+            <p class="post-meta">Posted on May 18, 2024 by Snr Luggya Raymond</p>
+            <p>Passenger experience is a critical aspect of public transport. By providing real-time information, comfortable vehicles, and convenient payment options, transport managers can improve passenger satisfaction and increase ridership.
+            </p>
+        </article>
+        <article class="blog-post">
+            <h3>Encourage Sustainable Transport</h3>
+            <p class="post-meta">Posted on May 19, 2024 by Miss. Akomujuni Joanita</p>
+            <p>Finally, encouraging sustainable transport is crucial to reducing congestion and improving air quality. By promoting public transport, walking, and cycling, transport managers can reduce the number of private vehicles on the road and improve overall efficiency.
+            </p>
+        </article>
+        <article class="blog-post">
+            <h3>CONCLUSION</h3>
+            <p>Improving public transport efficiency requires a multi-faceted approach. By optimizing routes, implementing real-time data analytics, improving vehicle maintenance, enhancing passenger experience, and encouraging sustainable transport, transport managers can reduce congestion, improve journey times, and provide a better experience for passengers.</p>
+        </article>
+        
+    </section>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 PTMS. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
